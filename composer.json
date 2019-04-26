@@ -1,0 +1,31 @@
+{
+    "name": "gobrightspot/nova-tickbox-field",
+    "description": "A Laravel Nova checkbox field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "tickbox",
+        "checkbox"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brightspot\\Nova\\Fields\\Tickbox\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Brightspot\\Nova\\Fields\\Tickbox\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
